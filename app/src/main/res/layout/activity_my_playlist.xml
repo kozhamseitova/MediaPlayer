@@ -1,0 +1,420 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#670C3D"
+    tools:context=".MyPlaylistActivity">
+
+    <TextView
+        android:id="@+id/my_playlist_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="My Playlist"
+        android:textAppearance="@style/my_playlist"
+        android:textStyle="italic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteY="42dp" />
+
+    <ImageView
+        android:id="@+id/disk_41995_"
+        android:layout_width="445.44dp"
+        android:layout_height="436.78dp"
+        android:background="@drawable/disk_41995_1280"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="187dp" />
+
+    <RelativeLayout
+        android:id="@+id/frame"
+        android:layout_width="320dp"
+        android:layout_height="60dp"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/frame"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginTop="56dp"
+        app:layout_constraintTop_toBottomOf="@id/my_playlist_tv"
+        tools:ignore="MissingConstraints" >
+
+        <ImageView
+            android:id="@+id/rectangle_1"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginLeft="13dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:src="@drawable/disk_41995_1280" />
+
+        <TextView
+            android:id="@+id/badliar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginLeft="67dp"
+            android:layout_marginTop="17dp"
+            android:layout_marginBottom="17dp"
+            android:gravity="top"
+            android:text="Bad Liar - Imagine Dr..."
+            android:textColor="@color/white"
+            android:textSize="18sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginLeft="253dp"
+            android:layout_marginTop="18dp"
+            android:layout_marginBottom="18dp"
+            android:gravity="top"
+            android:text="4:20"
+            android:textColor="@color/white"
+            android:textSize="16sp" />
+
+        <LinearLayout
+            android:id="@+id/menu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <View
+                android:layout_width="7dp"
+                android:layout_height="7dp"
+                android:layout_marginTop="17dp"
+                android:layout_marginLeft="297dp"
+                android:background="@drawable/ellipse"
+                />
+            <View
+                android:layout_width="7dp"
+                android:layout_height="7dp"
+                android:layout_marginTop="3dp"
+                android:layout_marginLeft="297dp"
+                android:background="@drawable/ellipse"
+                />
+            <View
+                android:layout_width="7dp"
+                android:layout_height="7dp"
+                android:layout_marginTop="3dp"
+                android:layout_marginLeft="297dp"
+                android:background="@drawable/ellipse"
+                />
+        </LinearLayout>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/frame2"
+        android:layout_width="320dp"
+        android:layout_height="60dp"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/frame"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginTop="22dp"
+        app:layout_constraintTop_toBottomOf="@id/frame"
+        tools:ignore="MissingConstraints">
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginLeft="13dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:src="@drawable/disk_41995_1280" />
+
+        <TextView
+            android:id="@+id/cardigan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginLeft="67dp"
+            android:layout_marginTop="17dp"
+            android:layout_marginBottom="17dp"
+            android:gravity="top"
+            android:text="Cardigan - Taylor Sw..."
+            android:textColor="@color/white"
+            android:textSize="18sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginLeft="253dp"
+            android:layout_marginTop="18dp"
+            android:layout_marginBottom="18dp"
+            android:gravity="top"
+            android:text="3:48"
+            android:textColor="@color/white"
+            android:textSize="16sp" />
+
+        <LinearLayout
+            android:id="@+id/menu2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <View
+                android:layout_width="7dp"
+                android:layout_height="7dp"
+                android:layout_marginTop="17dp"
+                android:layout_marginLeft="297dp"
+                android:background="@drawable/ellipse"
+                />
+            <View
+                android:layout_width="7dp"
+                android:layout_height="7dp"
+                android:layout_marginTop="3dp"
+                android:layout_marginLeft="297dp"
+                android:background="@drawable/ellipse"
+                />
+            <View
+                android:layout_width="7dp"
+                android:layout_height="7dp"
+                android:layout_marginTop="3dp"
+                android:layout_marginLeft="297dp"
+                android:background="@drawable/ellipse"
+                />
+        </LinearLayout>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/frame3"
+        android:layout_width="320dp"
+        android:layout_height="60dp"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/frame"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginTop="22dp"
+        app:layout_constraintTop_toBottomOf="@id/frame2"
+        tools:ignore="MissingConstraints">
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginLeft="13dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:src="@drawable/disk_41995_1280" />
+
+        <TextView
+            android:id="@+id/graveyard"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginLeft="67dp"
+            android:layout_marginTop="17dp"
+            android:layout_marginBottom="17dp"
+            android:gravity="top"
+            android:text="Graveyard - Halsey"
+            android:textColor="@color/white"
+            android:textSize="18sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginLeft="253dp"
+            android:layout_marginTop="18dp"
+            android:layout_marginBottom="18dp"
+            android:gravity="top"
+            android:text="3:01"
+            android:textColor="@color/white"
+            android:textSize="16sp" />
+
+        <LinearLayout
+            android:id="@+id/menu3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <View
+                android:layout_width="7dp"
+                android:layout_height="7dp"
+                android:layout_marginTop="17dp"
+                android:layout_marginLeft="297dp"
+                android:background="@drawable/ellipse"
+                />
+            <View
+                android:layout_width="7dp"
+                android:layout_height="7dp"
+                android:layout_marginTop="3dp"
+                android:layout_marginLeft="297dp"
+                android:background="@drawable/ellipse"
+                />
+            <View
+                android:layout_width="7dp"
+                android:layout_height="7dp"
+                android:layout_marginTop="3dp"
+                android:layout_marginLeft="297dp"
+                android:background="@drawable/ellipse"
+                />
+        </LinearLayout>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/frame4"
+        android:layout_width="320dp"
+        android:layout_height="60dp"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/frame"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginTop="22dp"
+        app:layout_constraintTop_toBottomOf="@id/frame3"
+        tools:ignore="MissingConstraints" >
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginLeft="13dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:src="@drawable/disk_41995_1280" />
+
+        <TextView
+            android:id="@+id/myfuture"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginLeft="67dp"
+            android:layout_marginTop="17dp"
+            android:layout_marginBottom="17dp"
+            android:gravity="top"
+            android:text="My future - Miley Cyr..."
+            android:textColor="@color/white"
+            android:textSize="18sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginLeft="253dp"
+            android:layout_marginTop="18dp"
+            android:layout_marginBottom="18dp"
+            android:gravity="top"
+            android:text="3:24"
+            android:textColor="@color/white"
+            android:textSize="16sp" />
+
+        <LinearLayout
+            android:id="@+id/menu4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <View
+                android:layout_width="7dp"
+                android:layout_height="7dp"
+                android:layout_marginTop="17dp"
+                android:layout_marginLeft="297dp"
+                android:background="@drawable/ellipse"
+                />
+            <View
+                android:layout_width="7dp"
+                android:layout_height="7dp"
+                android:layout_marginTop="3dp"
+                android:layout_marginLeft="297dp"
+                android:background="@drawable/ellipse"
+                />
+            <View
+                android:layout_width="7dp"
+                android:layout_height="7dp"
+                android:layout_marginTop="3dp"
+                android:layout_marginLeft="297dp"
+                android:background="@drawable/ellipse"
+                />
+        </LinearLayout>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/frame5"
+        android:layout_width="320dp"
+        android:layout_height="60dp"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/frame"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginTop="22dp"
+        app:layout_constraintTop_toBottomOf="@id/frame4"
+        tools:ignore="MissingConstraints" >
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginLeft="13dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:src="@drawable/disk_41995_1280" />
+
+        <TextView
+            android:id="@+id/myway"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginLeft="67dp"
+            android:layout_marginTop="17dp"
+            android:layout_marginBottom="17dp"
+            android:gravity="top"
+            android:text="My way - Calvin Harris"
+            android:textColor="@color/white"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/some_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginLeft="253dp"
+            android:layout_marginTop="18dp"
+            android:layout_marginBottom="18dp"
+            android:gravity="top"
+            android:text="3:39"
+            android:textColor="@color/white"
+            android:textSize="16sp" />
+
+        <LinearLayout
+            android:id="@+id/menu5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <View
+                android:layout_width="7dp"
+                android:layout_height="7dp"
+                android:layout_marginTop="17dp"
+                android:layout_marginLeft="297dp"
+                android:background="@drawable/ellipse"
+                />
+            <View
+                android:layout_width="7dp"
+                android:layout_height="7dp"
+                android:layout_marginTop="3dp"
+                android:layout_marginLeft="297dp"
+                android:background="@drawable/ellipse"
+                />
+            <View
+                android:layout_width="7dp"
+                android:layout_height="7dp"
+                android:layout_marginTop="3dp"
+                android:layout_marginLeft="297dp"
+                android:background="@drawable/ellipse"
+                />
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
